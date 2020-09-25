@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="552.0" prefWidth="651.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ticket_reservation_system.LOGINController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#002831" height="528.0" layoutX="-2.0" layoutY="24.0" stroke="BLACK" strokeType="INSIDE" width="664.0" />
+      <TextField fx:id="UsernameTextField" layoutX="71.0" layoutY="127.0" prefHeight="35.0" prefWidth="515.0" promptText="UserName" />
+      <Button layoutX="268.0" layoutY="266.0" mnemonicParsing="false" onAction="#handleLoginAction" prefHeight="34.0" prefWidth="102.0" text="Login" textFill="RED">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="289.0" layoutY="381.0" prefHeight="17.0" prefWidth="137.0" text="       Not a Member?" textFill="BLUE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="479.0" layoutY="374.0" mnemonicParsing="false" onAction="#handleSignUpAction" prefHeight="34.0" prefWidth="114.0" text="SignUp" textFill="RED">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="levelMessage" alignment="CENTER" layoutX="79.0" layoutY="55.0" prefHeight="34.0" prefWidth="457.0" text="Welcome" textFill="MAGENTA">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TitledPane animated="false" prefHeight="25.0" prefWidth="662.0" text="Ticket Reservation System">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+        </content>
+      </TitledPane>
+      <PasswordField fx:id="PasswordTextField" layoutX="72.0" layoutY="201.0" prefHeight="35.0" prefWidth="515.0" promptText="Password" />
+   </children>
+</AnchorPane>

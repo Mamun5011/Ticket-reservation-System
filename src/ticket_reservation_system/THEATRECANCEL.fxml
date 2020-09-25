@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="552.0" prefWidth="651.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ticket_reservation_system.THEATRECANCELController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00283c" height="525.0" layoutX="10.0" layoutY="13.0" stroke="BLACK" strokeType="INSIDE" width="630.0" />
+      <Label alignment="CENTER" layoutX="138.0" layoutY="95.0" prefHeight="44.0" prefWidth="354.0" text="Cancellation Of  Theatre Ticket" textFill="YELLOW">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="messagebox" alignment="CENTER" layoutX="131.0" layoutY="245.0" prefHeight="59.0" prefWidth="369.0" text="Enter Your Card Number Below" textFill="YELLOW">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="cardnumberfield" layoutX="241.0" layoutY="320.0" prefHeight="36.0" prefWidth="149.0" promptText="Enter Your Card Number" />
+      <Button layoutX="291.0" layoutY="386.0" mnemonicParsing="false" onAction="#okayButton" prefHeight="21.0" prefWidth="49.0" text="OK" />
+      <Label alignment="CENTER" layoutX="78.0" layoutY="176.0" prefHeight="59.0" prefWidth="476.0" text="10 Taka Will Be Deducted For Every Cancellation Of Ticket" textFill="YELLOW">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

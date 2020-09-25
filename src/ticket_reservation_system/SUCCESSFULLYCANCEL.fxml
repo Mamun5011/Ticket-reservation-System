@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="552.0" prefWidth="651.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ticket_reservation_system.SUCCESSFULLYCANCELController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#003c37" height="500.0" layoutX="23.0" layoutY="24.0" stroke="BLACK" strokeType="INSIDE" width="606.0" />
+      <Label alignment="CENTER" layoutX="69.0" layoutY="188.0" prefHeight="88.0" prefWidth="500.0" text="Your Ticket Is Successfully Cancelled" textFill="YELLOW">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Button layoutX="264.0" layoutY="304.0" mnemonicParsing="false" onAction="#OKAY" prefHeight="31.0" prefWidth="73.0" text="ok" textFill="RED">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Label fx:id="nametag" alignment="CENTER" layoutX="37.0" layoutY="145.0" prefHeight="59.0" prefWidth="562.0" text="Label" textFill="YELLOW">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,25 @@
+Name:
+Mamun
+Password:
+12345
+Card no:
+7890
+Gender:
+Male
+Address:
+Muktpara,Chuadanga
+Contact Number:
+01521494364
+Email:
+mamuncse1994@gmail.com
+Age:
+21
+Date of Birth:
+13
+11
+1994
+Occupation:
+Student
+Nationality:
+Bangladeshi
+Single

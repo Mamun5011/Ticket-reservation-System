@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="552.0" prefWidth="651.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ticket_reservation_system.CONFIRMATIONController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#003c42" height="524.0" layoutX="13.0" layoutY="18.0" stroke="BLACK" strokeType="INSIDE" width="627.0" />
+      <Label alignment="CENTER" layoutX="70.0" layoutY="208.0" prefHeight="86.0" prefWidth="475.0" text="Your Ticket Is Successfully booked" textFill="YELLOW">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Button layoutX="276.0" layoutY="307.0" mnemonicParsing="false" onAction="#OKK" prefHeight="25.0" prefWidth="63.0" text="OK" textFill="RED">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Label fx:id="nametag" alignment="CENTER" layoutX="16.0" layoutY="165.0" maxWidth="584.0" prefHeight="59.0" prefWidth="584.0" text="   " textFill="YELLOW">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="22.0" layoutY="127.0" prefHeight="31.0" prefWidth="571.0" text="Congratulation" textFill="YELLOW">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

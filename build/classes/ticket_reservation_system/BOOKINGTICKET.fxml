@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="552.0" prefWidth="651.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ticket_reservation_system.BOOKINGTICKETController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="473.0" layoutX="9.0" layoutY="72.0" stroke="BLACK" strokeType="INSIDE" width="637.0" />
+      <Label alignment="CENTER" layoutX="87.0" layoutY="18.0" prefHeight="48.0" prefWidth="469.0" text="Select Which Seat Do you Want To Reserve" textFill="RED">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#32ff1f" height="371.0" layoutX="413.0" layoutY="153.0" stroke="BLACK" strokeType="INSIDE" width="183.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#41ff1f" height="371.0" layoutX="49.0" layoutY="153.0" stroke="BLACK" strokeType="INSIDE" width="183.0" />
+      <HBox layoutX="49.0" layoutY="219.0" prefHeight="17.0" prefWidth="183.0" spacing="80.0">
+         <children>
+            <RadioButton mnemonicParsing="false" onAction="#Handle_A" />
+            <RadioButton mnemonicParsing="false" onAction="#Handle_B" />
+         </children>
+         <padding>
+            <Insets left="25.0" />
+         </padding>
+      </HBox>
+      <HBox layoutX="43.0" layoutY="308.0" prefHeight="17.0" prefWidth="183.0" spacing="85.0">
+         <children>
+            <RadioButton mnemonicParsing="false" onAction="#Handle_C" />
+            <RadioButton mnemonicParsing="false" onAction="#Handle_D" />
+         </children>
+         <padding>
+            <Insets left="30.0" />
+         </padding>
+      </HBox>
+      <HBox layoutX="50.0" layoutY="398.0" prefHeight="17.0" prefWidth="183.0" spacing="85.0">
+         <children>
+            <RadioButton mnemonicParsing="false" onAction="#Handle_E" />
+            <RadioButton mnemonicParsing="false" onAction="#Handle_F" />
+         </children>
+         <padding>
+            <Insets left="25.0" />
+         </padding>
+      </HBox>
+      <HBox layoutX="46.0" layoutY="482.0" prefHeight="17.0" prefWidth="190.0" spacing="87.0">
+         <children>
+            <RadioButton mnemonicParsing="false" onAction="#Handle_G" />
+            <RadioButton mnemonicParsing="false" onAction="#Handle_H" />
+         </children>
+         <padding>
+            <Insets left="30.0" />
+         </padding>
+      </HBox>
+      <HBox layoutX="413.0" layoutY="215.0" prefHeight="25.0" prefWidth="183.0" spacing="75.0">
+         <children>
+            <RadioButton mnemonicParsing="false" onAction="#Handle_I" />
+            <RadioButton mnemonicParsing="false" onAction="#Handle_J" />
+         </children>
+         <padding>
+            <Insets left="30.0" />
+         </padding>
+      </HBox>
+      <HBox layoutX="414.0" layoutY="296.0" prefHeight="25.0" prefWidth="183.0" spacing="75.0">
+         <children>
+            <RadioButton mnemonicParsing="false" onAction="#Handle_K" />
+            <RadioButton mnemonicParsing="false" onAction="#Handle_L" />
+         </children>
+         <padding>
+            <Insets left="30.0" />
+         </padding>
+      </HBox>
+      <HBox layoutX="413.0" layoutY="382.0" prefHeight="25.0" prefWidth="183.0" spacing="75.0">
+         <children>
+            <RadioButton mnemonicParsing="false" onAction="#Handle_M" />
+            <RadioButton mnemonicParsing="false" onAction="#Handle_N" />
+         </children>
+         <padding>
+            <Insets left="30.0" />
+         </padding>
+      </HBox>
+      <HBox layoutX="413.0" layoutY="471.0" prefHeight="17.0" prefWidth="183.0" spacing="75.0">
+         <children>
+            <RadioButton mnemonicParsing="false" onAction="#Handle_O" />
+            <RadioButton mnemonicParsing="false" onAction="#Handle_P" />
+         </children>
+         <padding>
+            <Insets left="30.0" />
+         </padding>
+      </HBox>
+      <Circle fill="#ffec21" layoutX="505.0" layoutY="117.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="547.0" layoutY="105.0" prefHeight="17.0" prefWidth="66.0" text="Driver" textFill="RED">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="level_A" alignment="CENTER" layoutX="57.0" layoutY="235.0" prefHeight="25.0" prefWidth="49.0" text="A" textFill="RED">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="level_B" alignment="CENTER" layoutX="162.0" layoutY="235.0" prefHeight="25.0" prefWidth="49.0" text="B" textFill="RED">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="level_C" alignment="CENTER" layoutX="57.0" layoutY="326.0" prefHeight="25.0" prefWidth="49.0" text="C" textFill="RED">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="level_D" alignment="CENTER" layoutX="162.0" layoutY="327.0" prefHeight="25.0" prefWidth="49.0" text="D" textFill="RED">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="level_E" alignment="CENTER" layoutX="58.0" layoutY="420.0" prefHeight="25.0" prefWidth="49.0" text="E" textFill="RED">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="level_F" alignment="CENTER" layoutX="167.0" layoutY="420.0" prefHeight="25.0" prefWidth="49.0" text="F" textFill="RED">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="level_G" alignment="CENTER" layoutX="57.0" layoutY="500.0" prefHeight="25.0" prefWidth="49.0" text="G" textFill="RED">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="level_H" alignment="CENTER" layoutX="168.0" layoutY="500.0" prefHeight="25.0" prefWidth="49.0" text="H" textFill="RED">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="level_I" alignment="CENTER" layoutX="427.0" layoutY="235.0" prefHeight="25.0" prefWidth="49.0" text="I" textFill="RED">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="level_J" alignment="CENTER" layoutX="523.0" layoutY="235.0" prefHeight="25.0" prefWidth="49.0" text="J" textFill="RED">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="level_K" alignment="CENTER" layoutX="428.0" layoutY="314.0" prefHeight="25.0" prefWidth="49.0" text="K" textFill="RED">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="level_L" alignment="CENTER" layoutX="523.0" layoutY="314.0" prefHeight="25.0" prefWidth="49.0" text="L" textFill="RED">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="level_M" alignment="CENTER" layoutX="427.0" layoutY="403.0" prefHeight="25.0" prefWidth="49.0" text="M" textFill="RED">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="level_N" alignment="CENTER" layoutX="523.0" layoutY="403.0" prefHeight="25.0" prefWidth="49.0" text="N" textFill="RED">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="level_O" alignment="CENTER" layoutX="426.0" layoutY="488.0" prefHeight="25.0" prefWidth="49.0" text="O" textFill="RED">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="level_P" alignment="CENTER" layoutX="523.0" layoutY="488.0" prefHeight="25.0" prefWidth="49.0" text="P" textFill="RED">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="52.0" layoutY="111.0" prefHeight="39.0" prefWidth="92.0" text="GATE" textFill="RED">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="286.0" layoutY="496.0" mnemonicParsing="false" onAction="#HandleOkButton" prefHeight="32.0" prefWidth="66.0" text="OK" textFill="RED" />
+      <Circle fill="#ff1fd1" layoutX="187.0" layoutY="193.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#ff1fd1" layoutX="82.0" layoutY="283.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#ff1fd1" layoutX="82.0" layoutY="193.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#ff1fd1" layoutX="187.0" layoutY="283.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#ff1fd1" layoutX="82.0" layoutY="461.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#ff1fd1" layoutX="187.0" layoutY="368.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#ff1fd1" layoutX="82.0" layoutY="378.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#ff1fd1" layoutX="191.0" layoutY="461.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#ff1fd1" layoutX="547.0" layoutY="193.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#ff1fd1" layoutX="451.0" layoutY="193.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#ff1fd1" layoutX="453.0" layoutY="276.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#ff1fd1" layoutX="548.0" layoutY="276.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#ff1fd1" layoutX="548.0" layoutY="362.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#ff1fd1" layoutX="451.0" layoutY="449.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#ff1fd1" layoutX="547.0" layoutY="449.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#ff1fd1" layoutX="451.0" layoutY="362.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button layoutX="11.0" layoutY="72.0" mnemonicParsing="false" onAction="#HandleBack" prefHeight="30.0" prefWidth="60.0" text="BACK" textFill="BLUE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="statusbox" alignment="CENTER" layoutX="116.0" layoutY="90.0" prefHeight="30.0" prefWidth="357.0" textFill="RED">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

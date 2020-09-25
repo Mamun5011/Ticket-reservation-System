@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="552.0" prefWidth="651.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ticket_reservation_system.BUSWARNINGController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00182e" height="520.0" layoutX="7.0" layoutY="18.0" stroke="BLACK" strokeType="INSIDE" width="633.0" />
+      <Label alignment="CENTER" layoutX="46.0" layoutY="238.0" prefHeight="63.0" prefWidth="550.0" text="The Seat Is Already Booked By Another Person" textFill="YELLOW">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Button fx:id="okays" layoutX="272.0" layoutY="348.0" mnemonicParsing="false" onAction="#OKAYS" prefHeight="25.0" prefWidth="73.0" text="OK" textFill="RED" />
+      <Label fx:id="nametag" alignment="CENTER" layoutX="21.0" layoutY="179.0" prefHeight="59.0" prefWidth="550.0" textFill="YELLOW">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

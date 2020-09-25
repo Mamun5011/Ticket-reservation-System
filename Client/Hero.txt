@@ -1,0 +1,25 @@
+Name:
+Hero
+Password:
+12345
+Card no:
+12345
+Gender:
+Male
+Address:
+2/a new road
+Contact Number:
+9660845
+Email:
+N/A
+Age:
+24
+Date of Birth:
+12
+8
+1992
+Occupation:
+Student
+Nationality:
+Bangladeshi
+Single

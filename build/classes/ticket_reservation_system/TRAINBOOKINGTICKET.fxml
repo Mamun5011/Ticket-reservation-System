@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="552.0" prefWidth="651.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ticket_reservation_system.TRAINBOOKINGTICKETController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="479.0" layoutX="6.0" layoutY="65.0" stroke="BLACK" strokeType="INSIDE" width="640.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#41ff1f" height="160.0" layoutX="17.0" layoutY="167.0" stroke="BLACK" strokeType="INSIDE" width="290.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#32ff1f" height="160.0" layoutX="340.0" layoutY="166.0" stroke="BLACK" strokeType="INSIDE" width="290.0" />
+      <Label alignment="CENTER" layoutX="74.0" layoutY="8.0" prefHeight="54.0" prefWidth="469.0" text="Select Which Seat Do you Want To Reserve" textFill="RED">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#46ff1f" height="160.0" layoutX="19.0" layoutY="344.0" stroke="BLACK" strokeType="INSIDE" width="290.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#46ff1f" height="160.0" layoutX="340.0" layoutY="344.0" stroke="BLACK" strokeType="INSIDE" width="290.0" />
+      <Label alignment="CENTER" layoutX="-8.0" layoutY="111.0" prefHeight="61.0" prefWidth="132.0" text="GATE" textFill="RED">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <HBox layoutX="29.0" layoutY="220.0" prefHeight="26.0" prefWidth="277.0" spacing="75.0">
+         <children>
+            <RadioButton mnemonicParsing="false" onAction="#HandleA" text="A" />
+            <RadioButton mnemonicParsing="false" onAction="#HandleB" text="B" />
+            <RadioButton mnemonicParsing="false" onAction="#HandleC" text="C" />
+         </children>
+         <padding>
+            <Insets left="20.0" />
+         </padding>
+      </HBox>
+      <HBox layoutX="32.0" layoutY="296.0" prefHeight="17.0" prefWidth="265.0" spacing="69.0">
+         <children>
+            <RadioButton mnemonicParsing="false" onAction="#HandleD" text="D" />
+            <RadioButton mnemonicParsing="false" onAction="#HandleE" prefHeight="17.0" prefWidth="41.0" text="E" />
+            <RadioButton mnemonicParsing="false" onAction="#HandleF" text="F" />
+         </children>
+         <padding>
+            <Insets left="20.0" />
+         </padding>
+      </HBox>
+      <HBox layoutX="341.0" layoutY="225.0" prefHeight="17.0" prefWidth="277.0" spacing="70.0">
+         <children>
+            <RadioButton mnemonicParsing="false" onAction="#HandleM" text="M" />
+            <RadioButton mnemonicParsing="false" onAction="#HandleN" text="N" />
+            <RadioButton mnemonicParsing="false" onAction="#HandleO" text="O" />
+         </children>
+         <padding>
+            <Insets left="20.0" />
+         </padding>
+      </HBox>
+      <HBox layoutX="353.0" layoutY="296.0" prefHeight="17.0" prefWidth="265.0" spacing="70.0">
+         <children>
+            <RadioButton mnemonicParsing="false" onAction="#HandleP" text="P" />
+            <RadioButton mnemonicParsing="false" onAction="#HandleQ" text="Q" />
+            <RadioButton mnemonicParsing="false" onAction="#HandleR" text="R" />
+         </children>
+         <padding>
+            <Insets left="20.0" />
+         </padding>
+      </HBox>
+      <HBox layoutX="29.0" layoutY="406.0" prefHeight="17.0" prefWidth="277.0" spacing="75.0">
+         <children>
+            <RadioButton mnemonicParsing="false" onAction="#HandleG" text="G" />
+            <RadioButton mnemonicParsing="false" onAction="#HandleH" text="H" />
+            <RadioButton mnemonicParsing="false" onAction="#HandleI" text="I" />
+         </children>
+         <padding>
+            <Insets left="20.0" />
+         </padding>
+      </HBox>
+      <HBox layoutX="29.0" layoutY="477.0" prefHeight="17.0" prefWidth="265.0" spacing="80.0">
+         <children>
+            <RadioButton mnemonicParsing="false" onAction="#HandleJ" text="J" />
+            <RadioButton mnemonicParsing="false" onAction="#HandleK" text="K" />
+            <RadioButton mnemonicParsing="false" onAction="#HandleL" text="L" />
+         </children>
+         <padding>
+            <Insets left="20.0" />
+         </padding>
+      </HBox>
+      <HBox layoutX="353.0" layoutY="397.0" prefHeight="17.0" prefWidth="265.0" spacing="70.0">
+         <children>
+            <RadioButton mnemonicParsing="false" onAction="#HandleS" text="S" />
+            <RadioButton mnemonicParsing="false" onAction="#HandleT" text="T" />
+            <RadioButton mnemonicParsing="false" onAction="#HandleU" text="U" />
+         </children>
+         <padding>
+            <Insets left="20.0" />
+         </padding>
+      </HBox>
+      <HBox layoutX="353.0" layoutY="469.0" prefHeight="17.0" prefWidth="265.0" spacing="70.0">
+         <children>
+            <RadioButton mnemonicParsing="false" onAction="#HandleV" text="V" />
+            <RadioButton mnemonicParsing="false" onAction="#HandleW" text="W" />
+            <RadioButton mnemonicParsing="false" onAction="#HandleX" text="X" />
+         </children>
+         <padding>
+            <Insets left="20.0" />
+         </padding>
+      </HBox>
+      <Circle fill="DODGERBLUE" layoutX="162.0" layoutY="196.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="259.0" layoutY="268.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="259.0" layoutY="196.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="267.0" layoutY="375.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="162.0" layoutY="268.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="58.0" layoutY="196.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="162.0" layoutY="375.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="58.0" layoutY="375.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="58.0" layoutY="268.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button layoutX="9.0" layoutY="65.0" mnemonicParsing="false" onAction="#HandleBack" prefHeight="30.0" prefWidth="67.0" text="BACK" textFill="BLUE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="293.0" layoutY="508.0" mnemonicParsing="false" onAction="#HandleOk" prefHeight="26.0" prefWidth="67.0" text="OK" textFill="BLUE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Circle fill="DODGERBLUE" layoutX="378.0" layoutY="196.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="378.0" layoutY="268.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="570.0" layoutY="196.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="470.0" layoutY="196.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="378.0" layoutY="375.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="580.0" layoutY="268.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="477.0" layoutY="268.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="477.0" layoutY="446.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="580.0" layoutY="375.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="586.0" layoutY="446.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="477.0" layoutY="375.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="378.0" layoutY="453.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="58.0" layoutY="453.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="267.0" layoutY="453.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="162.0" layoutY="453.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label fx:id="MESSAGE" alignment="CENTER" layoutX="134.0" layoutY="96.0" prefHeight="30.0" prefWidth="386.0" textFill="RED">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

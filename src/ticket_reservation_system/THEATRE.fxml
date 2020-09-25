@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="552.0" prefWidth="651.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ticket_reservation_system.THEATREController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1fffcd" height="123.0" layoutX="11.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="630.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1fff37" height="365.0" layoutX="6.0" layoutY="181.0" stroke="BLACK" strokeType="INSIDE" width="636.0" />
+      <Label alignment="CENTER" layoutX="73.0" layoutY="30.0" prefHeight="67.0" prefWidth="540.0" text="Welcome To Online Theatre Ticket Reservation System" textFill="RED">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="StatusBox" alignment="CENTER" layoutX="7.0" layoutY="139.0" prefHeight="41.0" prefWidth="630.0" text="Welcome" textFill="RED">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="MovieChoiceBox" layoutX="124.0" layoutY="318.0" prefHeight="33.0" prefWidth="150.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1ffff4" height="39.0" layoutX="68.0" layoutY="257.0" stroke="BLACK" strokeType="INSIDE" width="262.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1fffea" height="39.0" layoutX="370.0" layoutY="257.0" stroke="BLACK" strokeType="INSIDE" width="262.0" />
+      <ChoiceBox fx:id="TimeChoiceBox" layoutX="426.0" layoutY="318.0" prefHeight="33.0" prefWidth="150.0" />
+      <Label alignment="CENTER" layoutX="68.0" layoutY="257.0" prefHeight="39.0" prefWidth="249.0" text="Select Your Preferred Movie" textFill="RED">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="370.0" layoutY="257.0" prefHeight="39.0" prefWidth="249.0" text="Select Your Preferred Time" textFill="RED">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="287.0" layoutY="499.0" mnemonicParsing="false" onAction="#HandleOkayButton" prefHeight="33.0" prefWidth="71.0" text="OK" textFill="RED">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="98.0" layoutY="374.0" prefHeight="33.0" prefWidth="150.0" text="                          Date :" textFill="RED">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="date" layoutX="343.0" layoutY="378.0" prefHeight="25.0" prefWidth="43.0" promptText="dd" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f6eff" height="41.0" layoutX="23.0" layoutY="200.0" stroke="BLACK" strokeType="INSIDE" width="128.0" />
+      <Button layoutX="29.0" layoutY="206.0" mnemonicParsing="false" onAction="#HandleTheatreSchedule" prefHeight="29.0" prefWidth="117.0" text="Theatre Schedule" textFill="RED">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="71.0" layoutY="485.0" mnemonicParsing="false" onAction="#HandleBack" prefHeight="29.0" prefWidth="60.0" text="BACK" textFill="RED">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="389.0" layoutY="379.0" prefHeight="23.0" prefWidth="28.0" text="/" textFill="RED">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="465.0" layoutY="379.0" prefHeight="23.0" prefWidth="20.0" text="/" textFill="RED">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="month" layoutX="416.0" layoutY="378.0" prefHeight="25.0" prefWidth="43.0" promptText="mm" />
+      <TextField fx:id="year" layoutX="485.0" layoutY="378.0" prefHeight="25.0" prefWidth="51.0" promptText="   yy" />
+      <Label layoutX="206.0" layoutY="422.0" text="Number Of Tickets :" textFill="RED">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="206.0" layoutY="454.0" prefHeight="21.0" prefWidth="128.0" text="Card Number :" textFill="RED">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="ticketamountfield" layoutX="343.0" layoutY="420.0" prefHeight="25.0" prefWidth="193.0" promptText="Enter The Number Of Tickets" />
+      <TextField fx:id="cardnumberfield" layoutX="343.0" layoutY="463.0" prefHeight="25.0" prefWidth="193.0" promptText="Enter Your Card Number" />
+   </children>
+</AnchorPane>

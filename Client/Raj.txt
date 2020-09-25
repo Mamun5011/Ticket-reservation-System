@@ -1,0 +1,25 @@
+Name:
+Raj
+Password:
+12345
+Card no:
+5678
+Gender:
+Male
+Address:
+3/2 road
+Contact Number:
+456743
+Email:
+raje@gmail.com
+Age:
+21
+Date of Birth:
+11
+4
+2016
+Occupation:
+Student
+Nationality:
+bangladeshi
+Single

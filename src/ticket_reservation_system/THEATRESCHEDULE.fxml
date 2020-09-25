@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="552.0" prefWidth="651.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ticket_reservation_system.THEATRESCHEDULEController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00313a" height="534.0" layoutX="7.0" layoutY="10.0" stroke="BLACK" strokeType="INSIDE" width="645.0" />
+      <GridPane layoutX="59.0" layoutY="167.0" prefHeight="248.0" prefWidth="561.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="33.0" prefWidth="181.0" text="Movie Name" textFill="YELLOW" GridPane.columnIndex="1">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="33.0" prefWidth="108.0" text="Date" textFill="YELLOW" GridPane.columnIndex="2">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="33.0" prefWidth="183.0" text="Start TIme" textFill="YELLOW" GridPane.columnIndex="3">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="33.0" prefWidth="184.0" text="End Time" textFill="YELLOW" GridPane.columnIndex="4">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="33.0" prefWidth="177.0" text="The Great Gatsby" textFill="YELLOW" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="33.0" prefWidth="170.0" text="Kunfu Panda 3" textFill="YELLOW" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="33.0" prefWidth="158.0" text="Titanic" textFill="YELLOW" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="33.0" prefWidth="164.0" text="Limitless" textFill="YELLOW" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="33.0" prefWidth="115.0" text="N/A" textFill="YELLOW" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="33.0" prefWidth="116.0" text="N/A" textFill="YELLOW" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="33.0" prefWidth="112.0" text="N/A" textFill="YELLOW" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="33.0" prefWidth="116.0" text="N/A" textFill="YELLOW" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="33.0" prefWidth="88.0" text="10 A.M" textFill="YELLOW" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="33.0" prefWidth="88.0" text="2 P.M " textFill="YELLOW" GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="33.0" prefWidth="88.0" text="5 P.M " textFill="YELLOW" GridPane.columnIndex="3" GridPane.rowIndex="3">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="33.0" prefWidth="88.0" text="8.00 P.M " textFill="YELLOW" GridPane.columnIndex="3" GridPane.rowIndex="4">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="33.0" prefWidth="88.0" text="11.30 A.M" textFill="YELLOW" GridPane.columnIndex="4" GridPane.rowIndex="1">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="33.0" prefWidth="88.0" text="3.15P.M " textFill="YELLOW" GridPane.columnIndex="4" GridPane.rowIndex="2">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="33.0" prefWidth="88.0" text="7.00P.M " textFill="YELLOW" GridPane.columnIndex="4" GridPane.rowIndex="3">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="33.0" prefWidth="88.0" text="9.50 P.M " textFill="YELLOW" GridPane.columnIndex="4" GridPane.rowIndex="4">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="25.0" prefWidth="50.0" text="1" textFill="YELLOW" GridPane.rowIndex="1">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="25.0" prefWidth="50.0" text="2" textFill="YELLOW" GridPane.rowIndex="2">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="25.0" prefWidth="50.0" text="3" textFill="YELLOW" GridPane.rowIndex="3">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="25.0" prefWidth="50.0" text="4" textFill="YELLOW" GridPane.rowIndex="4">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="25.0" prefWidth="50.0" text="ID" textFill="YELLOW">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="188.0" minWidth="10.0" prefWidth="80.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="200.0" minWidth="10.0" prefWidth="200.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="160.0" minWidth="10.0" prefWidth="122.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="157.0" minWidth="10.0" prefWidth="129.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="123.0" minWidth="10.0" prefWidth="123.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints maxHeight="42.0" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="42.0" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="42.0" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="42.0" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="42.0" minHeight="10.0" prefHeight="31.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+      </GridPane>
+      <Label alignment="CENTER" layoutX="205.0" layoutY="45.0" prefHeight="80.0" prefWidth="242.0" text="Movie List" textFill="YELLOW">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <Button layoutX="288.0" layoutY="442.0" mnemonicParsing="false" onAction="#HandleOkButton" prefHeight="30.0" prefWidth="75.0" text="OK" textFill="RED">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

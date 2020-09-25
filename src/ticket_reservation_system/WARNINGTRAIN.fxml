@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="552.0" prefWidth="651.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ticket_reservation_system.WARNINGTRAINController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#002828" height="529.0" layoutX="11.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="628.0" />
+      <Label alignment="CENTER" layoutX="26.0" layoutY="224.0" prefHeight="55.0" prefWidth="598.0" text="The Seat Is Already Booked By Another Person" textFill="YELLOW">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Button fx:id="ok" layoutX="256.0" layoutY="336.0" mnemonicParsing="false" onAction="#Handleokay" prefHeight="23.0" prefWidth="80.0" text="OK" textFill="RED" />
+      <Label fx:id="nametag" alignment="CENTER" layoutX="26.0" layoutY="169.0" prefHeight="55.0" prefWidth="566.0" textFill="YELLOW">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

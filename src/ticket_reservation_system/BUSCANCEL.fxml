@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="552.0" prefWidth="651.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ticket_reservation_system.BUSCANCELController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#002830" height="530.0" layoutX="11.0" layoutY="11.0" stroke="BLACK" strokeType="INSIDE" width="631.0" />
+      <ImageView fitHeight="552.0" fitWidth="651.0" pickOnBounds="true" preserveRatio="true" >
+                            <image> 
+            <Image url="Image/bus3.png" ></Image>
+            </image> 
+       </ImageView>
+      <Label alignment="CENTER" layoutX="131.0" layoutY="80.0" prefHeight="66.0" prefWidth="342.0" text="Cancellation Of  Bus Ticket" textFill="YELLOW">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="StatusLevel" alignment="CENTER" layoutX="115.0" layoutY="252.0" prefHeight="59.0" prefWidth="375.0" text="Enter Your Card Number Below" textFill="YELLOW">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="CardNoTextField" layoutX="213.0" layoutY="319.0" prefHeight="32.0" prefWidth="157.0" promptText="Enter Your Card Number" />
+      <Button layoutX="265.0" layoutY="383.0" mnemonicParsing="false" onAction="#HandkeOkButton" prefHeight="25.0" prefWidth="55.0" text="OK" textFill="BLUE">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="81.0" layoutY="181.0" prefHeight="59.0" prefWidth="489.0" text="10 Taka Will Be Deducted For Every Cancellation Of Ticket" textFill="YELLOW">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
